@@ -1,1 +1,1 @@
-console.log('Pluralsight rocks');
+console.log("Pluralsight rocks");
