@@ -1,10 +1,11 @@
-let lastIntervalId, counter = 5;
+let lastIntervalId,
+  counter = 5;
 
 const greeting = delay => {
   if (counter === 5) {
     clearInterval(lastIntervalId);
     lastIntervalId = setInterval(() => {
-      console.log('Hello World. ' + delay);
+      console.log("Hello World. " + delay);
       greeting(delay + 100);
     }, delay);
     counter = 0;

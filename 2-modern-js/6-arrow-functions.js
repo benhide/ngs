@@ -1,4 +1,4 @@
-const square = (a) => {
+const square = a => {
   return a * a;
 };
 

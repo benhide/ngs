@@ -1,5 +1,5 @@
 const theOneFunc = delay => {
-  console.log('Hello after ' + delay + ' seconds');
+  console.log("Hello after " + delay + " seconds");
 };
 
 setTimeout(theOneFunc, 4 * 1000, 4);
